@@ -1,5 +1,5 @@
-import { KiteIcon } from '@/components/icons';
-import { Calendar, Github, Linkedin, Globe } from 'lucide-react';
+import {KiteIcon} from '@/components/icons';
+import {Calendar, Github, Linkedin, Globe} from 'lucide-react';
 
 export default function Footer() {
     return (
@@ -58,7 +58,7 @@ export default function Footer() {
                     </a>
                 </div>
 
-                <p className="text-gray-400 text-sm">© 2025 prototype for Tarifa Kite Hostel, built by a kite surfer, teacher and developer.</p>
+                <p className="text-gray-400 text-sm">© , built by a kite surfer, teacher and developer.</p>
             </div>
         </footer>
     );
