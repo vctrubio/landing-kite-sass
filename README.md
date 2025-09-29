@@ -11,7 +11,7 @@ The landing page is running at: **http://localhost:3002**
 KiteFlow is a comprehensive kite school management application built for wind-dependent operations. It provides dual interfaces for different user roles:
 
 - **Billboard Interface**: Desktop drag-and-drop scheduling for admins
-- **Teacher Portal**: Mobile performance tracking for instructors  
+- **Teacher Portal**: Mobile performance tracking for instructors
 - **Student Management**: Complete booking-to-lesson workflow
 - **Equipment Tracking**: Kite assignment and inventory management
 
@@ -52,6 +52,7 @@ kiteflow-landing/
 ## 🎯 Key Sections
 
 ### Landing Page (`/`)
+
 1. **Hero Section** - Main value proposition
 2. **Problem/Solution** - Contrasts manual vs automated management
 3. **Features Grid** - 6 key features with entity colors
@@ -61,6 +62,7 @@ kiteflow-landing/
 7. **Call-to-Action** - Contact form integration
 
 ### Documentation (`/docs`)
+
 1. **Teacher Setup** - Step 1 of the system flow
 2. **Student Journey** - Complete booking-to-event workflow
 3. **Supporting Systems** - Kites, payments, packages
@@ -71,7 +73,7 @@ kiteflow-landing/
 The landing page uses the same color scheme as the main application:
 
 - **Students** 🟡 Yellow (`text-yellow-500`)
-- **Teachers** 🟢 Green (`text-green-500`) 
+- **Teachers** 🟢 Green (`text-green-500`)
 - **Bookings** 🔵 Blue (`text-blue-500`)
 - **Lessons** 🔷 Cyan (`text-cyan-500`)
 - **Events** 🟦 Teal (`text-teal-500`)
@@ -82,6 +84,7 @@ The landing page uses the same color scheme as the main application:
 ## 📧 Contact Integration
 
 All CTA buttons link to email contact:
+
 - `contact@kiteflow.com`
 - Pre-filled subject lines for different pricing tiers
 - Professional email templates ready
@@ -112,8 +115,9 @@ npm start
 ## 🎪 Ready for Production
 
 This landing page is production-ready and can be deployed to:
+
 - **Vercel** (recommended for Next.js)
-- **Netlify** 
+- **Netlify**
 - **AWS** / **Azure** / **GCP**
 - Any static hosting service
 

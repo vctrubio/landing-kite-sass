@@ -59,7 +59,7 @@ Each primary entity (e.g., Students, Teachers, Bookings) follows a consistent ar
 A comprehensive timezone-safe utility module that prevents timezone conversion issues across the application:
 
 - **`createUTCDateTime(date, time)`**: Creates UTC Date from date/time strings
-- **`toUTCString(date)`**: Converts Date to UTC ISO string  
+- **`toUTCString(date)`**: Converts Date to UTC ISO string
 - **`extractTimeFromUTC(isoString)`**: Extracts HH:MM from UTC ISO string
 - **`addMinutesToTime(time, minutes)`**: Adds minutes to time string
 - **`timeToMinutes()` / `minutesToTime()`**: Converts between time formats
@@ -123,6 +123,7 @@ A drag-and-drop interface for teacher scheduling with advanced queue management:
 - **BillboardHeader.tsx**: Header component with statistics, settings, and bulk operations
 
 **Core Features**:
+
 - Drag-and-drop scheduling from student bookings to teacher columns
 - Real-time queue management with linked list data structures
 - Dynamic duration adjustments and conflict resolution
@@ -137,14 +138,17 @@ A drag-and-drop interface for teacher scheduling with advanced queue management:
 ## TODO List
 
 ### High Priority
+
 - [ ] Create teacher portal
 - [ ] Finish whiteboard admin playbook
 
 ### Schema Updates
+
 - [ ] Migrate schema - add user last name field
 - [ ] Make structure editable constants for easy maintenance
 
 ### Development Tasks
+
 - [ ] Implement user invitation system
 - [ ] Enhance navigation dropdown functionality
 - [ ] Optimize form validation and error handling
