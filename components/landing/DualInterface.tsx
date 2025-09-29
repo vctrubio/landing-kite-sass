@@ -1,17 +1,22 @@
-import { CheckCircle, Users, Share, Shuffle, FlagIcon, Clock, DollarSign } from "lucide-react";
-import { HeadsetIcon } from "@/components/icons";
+import {
+  CheckCircle,
+  Users,
+  Share,
+  Shuffle,
+  FlagIcon,
+  Clock,
+  DollarSign,
+} from 'lucide-react';
+import { HeadsetIcon } from '@/components/icons';
 
 export default function DualInterface() {
   return (
     <section className="px-6 py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 text-center mb-4">
-          Two interfaces, one powerful system
+        <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">
+          Two interfaces, interconnected.
         </h2>
-        <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
-          Admins use Billboard for complex scheduling. Teachers use Portal to track their performance.
-        </p>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Billboard - Admin Interface */}
           <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-2xl border border-blue-100">
@@ -21,9 +26,6 @@ export default function DualInterface() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900">Billboard</h3>
             </div>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              Automate your daily operations.
-            </p>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
                 <CheckCircle className="w-5 h-5 text-green-500" />
@@ -31,7 +33,9 @@ export default function DualInterface() {
               </div>
               <div className="flex items-center gap-3">
                 <Share className="w-5 h-5 text-green-500" />
-                <span className="text-gray-700">Share actions (WhatsApp, CSV, PDF)</span>
+                <span className="text-gray-700">
+                  Share actions (WhatsApp, CSV, PDF)
+                </span>
               </div>
               <div className="flex items-center gap-3">
                 <Shuffle className="w-5 h-5 text-green-500" />
@@ -46,16 +50,16 @@ export default function DualInterface() {
               <div className="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center">
                 <HeadsetIcon className="w-5 h-5 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900">Teacher Portal</h3>
+              <h3 className="text-2xl font-bold text-gray-900">
+                Teacher Portal
+              </h3>
             </div>
-            <p className="text-gray-600 mb-6 leading-relaxed">
-              Track your performance, earnings, and lesson progress with real-time statistics.
-            </p>
-            
             {/* Teacher Stats Preview */}
             <div className="bg-white rounded-lg p-4 mb-4 border border-green-200">
               <div className="flex items-center justify-between mb-3">
-                <span className="text-sm font-medium text-gray-600">Maria Santos</span>
+                <span className="text-sm font-medium text-gray-600">
+                  Matteo
+                </span>
                 <span className="text-lg font-bold text-green-600">€847</span>
               </div>
               <div className="flex items-center gap-4 text-xs text-gray-500">
@@ -71,21 +75,6 @@ export default function DualInterface() {
                   <DollarSign className="w-3 h-3 text-green-500" />
                   <span>€35/hr</span>
                 </div>
-              </div>
-            </div>
-            
-            <div className="space-y-3">
-              <div className="flex items-center gap-3">
-                <CheckCircle className="w-5 h-5 text-green-500" />
-                <span className="text-gray-700">Count lessons with flag icons</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <CheckCircle className="w-5 h-5 text-green-500" />
-                <span className="text-gray-700">Track total hours and earnings</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <CheckCircle className="w-5 h-5 text-green-500" />
-                <span className="text-gray-700">Performance accountability</span>
               </div>
             </div>
           </div>

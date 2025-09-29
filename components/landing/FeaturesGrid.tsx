@@ -11,7 +11,7 @@ export default function FeaturesGrid() {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Student Management */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-[#0058A6]/20 hover:shadow-lg transition-all">
+          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-yellow-500/20 hover:shadow-lg transition-all">
             <div className="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center mb-6">
               <HelmetIcon className="w-6 h-6 text-yellow-600" />
             </div>
@@ -22,7 +22,7 @@ export default function FeaturesGrid() {
           </div>
 
           {/* Teacher Scheduling */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-[#0058A6]/20 hover:shadow-lg transition-all">
+          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-green-500/20 hover:shadow-lg transition-all">
             <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-6">
               <HeadsetIcon className="w-6 h-6 text-green-600" />
             </div>
@@ -33,7 +33,7 @@ export default function FeaturesGrid() {
           </div>
 
           {/* Equipment Tracking */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-[#0058A6]/20 hover:shadow-lg transition-all">
+          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-purple-500/20 hover:shadow-lg transition-all">
             <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
               <EquipmentIcon className="w-6 h-6 text-purple-600" />
             </div>
@@ -44,7 +44,7 @@ export default function FeaturesGrid() {
           </div>
 
           {/* Booking System */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-[#0058A6]/20 hover:shadow-lg transition-all">
+          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-blue-500/20 hover:shadow-lg transition-all">
             <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
               <BookingIcon className="w-6 h-6 text-blue-600" />
             </div>
@@ -55,7 +55,7 @@ export default function FeaturesGrid() {
           </div>
 
           {/* Payments */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-[#0058A6]/20 hover:shadow-lg transition-all">
+          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-amber-500/20 hover:shadow-lg transition-all">
             <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center mb-6">
               <PaymentIcon className="w-6 h-6 text-amber-600" />
             </div>
@@ -66,7 +66,7 @@ export default function FeaturesGrid() {
           </div>
 
           {/* Export & Share */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-[#0058A6]/20 hover:shadow-lg transition-all">
+          <div className="bg-white p-8 rounded-2xl border border-gray-100 hover:border-teal-500/20 hover:shadow-lg transition-all">
             <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
               <BarChart3 className="w-6 h-6 text-teal-600" />
             </div>

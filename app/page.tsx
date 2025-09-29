@@ -1,6 +1,6 @@
-"use client";
+'use client';
 
-import { Navigation, Footer } from "@/components/ui";
+import { Navigation, Footer } from '@/components/ui';
 import {
   HeroSection,
   ProblemSolution,
@@ -10,7 +10,7 @@ import {
   CallToAction,
   ComingSoon,
   AuthShowcase,
-} from "@/components/landing";
+} from '@/components/landing';
 
 export default function LandingPage() {
   return (
@@ -20,7 +20,7 @@ export default function LandingPage() {
       <ProblemSolution />
       <FeaturesGrid />
       <DualInterface />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <CallToAction />
       {/* <ComingSoon /> */}
       <AuthShowcase />
